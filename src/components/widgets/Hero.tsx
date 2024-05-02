@@ -16,7 +16,7 @@ export default component$(() => {
 
         
         <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
-        <video width="1400" height="240"  controls src="./images/almonte1.mp4">
+        <video width="1400" height="240"  poster="./images/a6.png" controls src="./images/almonte1.mp4">
   Your browser does not support the video tag.
 </video>
       
