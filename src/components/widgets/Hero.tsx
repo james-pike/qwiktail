@@ -22,7 +22,7 @@ export default component$(() => {
 
 <div style={{ position: 'relative', height: '50vh' }}>
 <Image
-     className="object-cover w-full "
+     class="object-cover w-full "
   src="/images/g1.jpg"
   alt="{name}"
   quality={50}
@@ -47,7 +47,7 @@ export default component$(() => {
                             <span style={{ display: 'block' }}>CERTIFIED</span>
                             <span style={{ display: 'block' }}>PINSARIA</span>
                         </h1>
-                        <div className="pt-6"
+                        <div class="pt-6"
                             style={{
                                 position: 'absolute',
                                 top: '60%', // Position the buttons below the subtitle
@@ -56,13 +56,13 @@ export default component$(() => {
                                 zIndex: 10, // Ensure it's above the image
                             }}
                         >
-                            <div className="pt-1" style={{ display: 'flex', alignItems: 'center' }}>
+                            <div class="pt-1" style={{ display: 'flex', alignItems: 'center' }}>
                                 <a href="/menu">
-                                    <button className="px-4 py-3 mr-2 text-xs font-bold text-white bg-black border-white rounded border-1">
+                                    <button class="px-4 py-3 mr-2 text-xs font-bold text-white bg-black border-white rounded border-1">
                                         BROWSE MENU
                                     </button>
                                 </a>
-                                <div className="pt-2"></div>
+                                <div class="pt-2"></div>
 
                             </div>
 
@@ -70,7 +70,7 @@ export default component$(() => {
                     </div>
 
 
-                    <div className="border-black border-6"></div>
+                    <div class="border-black border-6"></div>
 
 
 
@@ -101,7 +101,7 @@ export default component$(() => {
                             <span style={{ display: 'block' }}>CERTIFIED</span>
                             <span style={{ display: 'block' }}>PINSARIA</span>
                         </h1>
-                        <div className="pt-6"
+                        <div class="pt-6"
                             style={{
                                 position: 'absolute',
                                 top: '60%', // Position the buttons below the subtitle
@@ -110,13 +110,13 @@ export default component$(() => {
                                 zIndex: 10, // Ensure it's above the image
                             }}
                         >
-                            <div className="pt-1" style={{ display: 'flex', alignItems: 'center' }}>
+                            <div class="pt-1" style={{ display: 'flex', alignItems: 'center' }}>
                                 <a href="/menu">
-                                    <button className="px-4 py-3 mr-2 text-xs font-bold text-white bg-black border-white rounded border-1">
+                                    <button class="px-4 py-3 mr-2 text-xs font-bold text-white bg-black border-white rounded border-1">
                                         BROWSE PINSAS
                                     </button>
                                 </a>
-                                <div className="pt-2"></div>
+                                <div class="pt-2"></div>
 
                             </div>
 
@@ -124,7 +124,7 @@ export default component$(() => {
                     </div>
 
 
-                    <div className="border-8 border-black"></div>
+                    <div class="border-8 border-black"></div>
 
 
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
