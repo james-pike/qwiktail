@@ -2,19 +2,16 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Hero from "~/components/widgets/Hero";
-import Features from "~/components/widgets/Features";
-import Steps from "~/components/widgets/Steps";
-import FAQs from "~/components/widgets/FAQs";
-import Stats from "~/components/widgets/Stats";
-import CallToAction from "~/components/widgets/CallToAction";
 
-import { qwikSerialized } from "~/utils/qwikSerialized";
 
-const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
-const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
-const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
-const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
-const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
+
+
+
+// const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
+// const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
+// const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
+// const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
+// const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 import { SITE } from "~/config.mjs";
 
@@ -22,7 +19,7 @@ export default component$(() => {
   return (
     <>
       <Hero />
-      <Features
+      {/* <Features
         highlight="Features"
         title="What you get with Qwind"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
@@ -63,7 +60,7 @@ export default component$(() => {
             icon: IconBulb
           },
         ]}
-      />
+      /> */}
       {/* <Steps />
       <FAQs
         title="Frequently Asked Questions"
