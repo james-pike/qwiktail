@@ -76,7 +76,7 @@ export default component$(() => {
 
                     <div style={{ position: 'relative', height: '30vh' }}>
 <Image
-     className="object-cover w-full "
+     class="object-cover w-full "
   src="/images/p1.jpg"
   alt="{name}"
   quality={50}
